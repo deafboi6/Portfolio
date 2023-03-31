@@ -14,10 +14,10 @@ import Navbar from './components/Navbar';
 // Sends entire application to index.js where application is loaded and rendered
 export default function App() {
   return (
-    <div>
+    <div className='imgBackground'>
       <Router>
         <div>
-          <Navbar />
+          {/* <Navbar /> */}
           <Routes>
             {/* AboutMe page is the default page */}
             <Route exact path="/" element={<AboutMe />} />
