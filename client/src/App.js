@@ -9,7 +9,8 @@ import AboutMe from './components/pages/aboutMe';
 import ContactMe from './components/pages/contactMe';
 import Portfolio from './components/pages/portfolio';
 import Resume from './components/pages/resume';
-import Navbar from './components/Navbar';
+import Footer from './components/footer';
+// import Navbar from './components/Navbar';
 
 // Sends entire application to index.js where application is loaded and rendered
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
           </Routes>
         </div>
     </Router>
+    <Footer />
     </div>
   );
 };
