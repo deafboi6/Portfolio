@@ -16,7 +16,7 @@ export default function ContactMe() {
 
     return (
         <div className='formDiv px-5'>
-        <h1 className="text-center pt-3">Contact Me</h1>
+        {/* <h2 className="text-center pt-3">Contact Me</h2> */}
         <form onSubmit={onSubmit}>
             <div className="form-group">
                 <label>Email address</label>

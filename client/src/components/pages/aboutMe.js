@@ -1,14 +1,12 @@
 import React from 'react';
 import Picture from "../images/pfp.jpg";
 
-//TODO: add pictures 
 export default function AboutMe() {
-    const body = "<h3></h3>"
     return (
         <div className='text-center'>
-            <h1 className='pt-3'>About Me</h1>
+            {/* <h2 className='pt-3'>About Me</h2> */}
             <div className=''>
-            <img src={Picture} style={{width: "15%", height: "15%", float: "left"}} className='rounded-circle'></img>
+            <img src={Picture} style={{width: "15%", height: "15%", float: "left"}} className='rounded-circle' alt='Me and my wife' ></img>
             <h4>
                 Hello! My name is Jayden Chapman and I am 23 years old, born at the tail end of 1999. I grew up in Washington state,
                 home to the beautiful Pacific North West. I am currently engaged to my beautiful fiancée Bailey, with plans to get
@@ -24,6 +22,7 @@ export default function AboutMe() {
                 fully functional web applications, front-to-back, back-to-front. My primary coding language is Javascript, with strong
                 applications in Node.js, React, MERN, SQL, NoSQL, and so on. I am highly motivated and excited to learn more, as well
                 as apply my skills to optimal use.
+                
             </h4>
             </div>
         </div>
