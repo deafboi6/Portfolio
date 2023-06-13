@@ -1,0 +1,95 @@
+hmtl,
+body {
+  color: white;
+  background-color: black;
+  height: 100%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+/* Header/Navbar styling */
+header {
+  margin: 0;
+}
+
+.navThing {
+  font-size: 20px;
+  padding: 0 25px 0 25px;
+}
+
+.navThing p {
+  padding-top: 12px;
+}
+
+.navThing ul {
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.navThing ul li {
+  padding: 10px 15px;
+}
+
+.navItem {
+  text-decoration: none;
+  color: white;
+}
+
+.navItem:hover {
+  color:rgb(115, 115, 115);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(115, 115, 115);
+  border-radius: 15px;
+  min-width: 150px;
+}
+
+.dropdown-content img {
+  max-height: 20px;
+  max-width: 20px;
+  border-radius: 15px;
+}
+
+.dropdown-content a:hover {
+  color:rgb(0, 0, 0);
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Page content */
+.content {
+  font-size: 30px;
+  margin: 5%;
+  padding: 1%;
+  background-color: rgb(35, 35, 35);
+  border-radius: 15px;
+}
+
+.content img {
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+
+.images img {
+  max-height: 500px;
+  margin: 0 2% 0 2%;
+  border-radius: 5px;
+}
