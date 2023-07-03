@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd client && npm run start"
+    "start": "cd client && npm run start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/deafboi6/Portfolio/issues"
   },
-  "homepage": "https://github.com/deafboi6/Portfolio#readme"
+  "homepage": "https://github.com/deafboi6/Portfolio",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
