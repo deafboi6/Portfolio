@@ -8,7 +8,7 @@ export default function Navbar() {
     const linkedIn = "https://www.linkedin.com/in/jay-chapman6/";
 
     return (
-        <nav class="navbar navThing">
+        <nav className="navbar navThing">
             <p>Jayden Chapman</p>
                 <ul className="navbar-nav">
                     <li className="dropdown">

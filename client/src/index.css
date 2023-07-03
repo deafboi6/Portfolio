@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 
-/* Header/Navbar styling */
+/* --------------------------Header/Navbar styling--------------------- */
 header {
   margin: 0;
 }
@@ -73,13 +73,17 @@ header {
   flex-direction: column;
 }
 
-/* Page content */
+/* ------------------------Page content----------------------- */
 .content {
   font-size: 30px;
   margin: 5%;
   padding: 1%;
   background-color: rgb(35, 35, 35);
   border-radius: 15px;
+}
+
+.portfolio {
+  margin-top: 5%;
 }
 
 .content img {
@@ -90,6 +94,22 @@ header {
 
 .images img {
   max-height: 500px;
-  margin: 0 2% 0 2%;
+  margin: 0 2% 10px 2%;
   border-radius: 5px;
+}
+
+.cardContainer {
+  justify-content: center;
+}
+
+.card {
+  width: 500px;
+  color: black;
+}
+
+.card img {
+  margin-top: 3%;
+  object-fit: fill;
+  width: 475px;
+  height: 345px;
 }
