@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.f20039e7.css",
-    "main.js": "/static/js/main.fc955c5a.js",
-    "static/media/Nightmare.jpg": "/static/media/Nightmare.a3f224042e7913bcbc83.jpg",
-    "static/media/Mao.jpg": "/static/media/Mao.2602624d7d271ae64ade.jpg",
-    "static/media/Clementine.jpg": "/static/media/Clementine.5573a17d314f6ca54b2b.jpg",
-    "static/media/pfp.jpg": "/static/media/pfp.85fa39ae036b1a05a3c8.jpg",
-    "static/media/WTW.png": "/static/media/WTW.7b4ef64c212cc0f3a0eb.png",
-    "static/media/newDND.png": "/static/media/newDND.0066d313d073402d39a3.png",
-    "static/media/github.png": "/static/media/github.ff2648078e819f6a9666.png",
-    "static/media/EmpTrak.png": "/static/media/EmpTrak.dff0314ad61ad661314f.png",
-    "static/media/linkedIn.png": "/static/media/linkedIn.8747c659f1fe4f57b1c5.png",
-    "index.html": "/index.html",
-    "main.f20039e7.css.map": "/static/css/main.f20039e7.css.map",
-    "main.fc955c5a.js.map": "/static/js/main.fc955c5a.js.map"
+    "main.css": "/deafboi6/Portfolio/static/css/main.f20039e7.css",
+    "main.js": "/deafboi6/Portfolio/static/js/main.35e70e82.js",
+    "static/media/Nightmare.jpg": "/deafboi6/Portfolio/static/media/Nightmare.a3f224042e7913bcbc83.jpg",
+    "static/media/Mao.jpg": "/deafboi6/Portfolio/static/media/Mao.2602624d7d271ae64ade.jpg",
+    "static/media/Clementine.jpg": "/deafboi6/Portfolio/static/media/Clementine.5573a17d314f6ca54b2b.jpg",
+    "static/media/pfp.jpg": "/deafboi6/Portfolio/static/media/pfp.85fa39ae036b1a05a3c8.jpg",
+    "static/media/WTW.png": "/deafboi6/Portfolio/static/media/WTW.7b4ef64c212cc0f3a0eb.png",
+    "static/media/newDND.png": "/deafboi6/Portfolio/static/media/newDND.0066d313d073402d39a3.png",
+    "static/media/github.png": "/deafboi6/Portfolio/static/media/github.ff2648078e819f6a9666.png",
+    "static/media/EmpTrak.png": "/deafboi6/Portfolio/static/media/EmpTrak.dff0314ad61ad661314f.png",
+    "static/media/linkedIn.png": "/deafboi6/Portfolio/static/media/linkedIn.8747c659f1fe4f57b1c5.png",
+    "index.html": "/deafboi6/Portfolio/index.html",
+    "main.f20039e7.css.map": "/deafboi6/Portfolio/static/css/main.f20039e7.css.map",
+    "main.35e70e82.js.map": "/deafboi6/Portfolio/static/js/main.35e70e82.js.map"
   },
   "entrypoints": [
     "static/css/main.f20039e7.css",
-    "static/js/main.fc955c5a.js"
+    "static/js/main.35e70e82.js"
   ]
 }
