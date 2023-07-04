@@ -18,6 +18,7 @@ export default function App() {
             {/* AboutMe page is the default page */}
             <Route exact path="/" element={<AboutMe />} />
             <Route exact path='/projects' element={<Portfolio />} />
+            <Route path="/Portfolio" element={<AboutMe />} /> 
           </Routes>
         </div>
       </Router>
